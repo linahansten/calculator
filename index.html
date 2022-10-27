@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section id="top">
+            <p id="display"></p>
+        </section>
+        <section id="bottom">
+            <button id="ac" onclick="removeDisplay('')">AC</button>
+            <button id="plusminus">+/-</button>
+            <button id=" procent" onclick="updateDisplay('%')">%</button>
+            <button id="delat" onclick="updateDisplay('/')">/</button>
+            <button id="sju" onclick="updateDisplay('7')">7</button>
+            <button id="åtta" onclick="updateDisplay('8')">8</button>
+            <button id="nio" onclick="updateDisplay('9')">9</button>
+            <button id="gånger" onclick="updateDisplay('*')">X</button>
+            <button id="fyra" onclick="updateDisplay('4')">4</button>
+            <button id="fem" onclick="updateDisplay('5')">5</button>
+            <button id="sex" onclick="updateDisplay('6')">6</button>
+            <button id="minus" onclick="updateDisplay('-')">-</button>
+            <button id="ett" onclick="updateDisplay('1')">1</button>
+            <button id="två" onclick="updateDisplay('2')">2</button>
+            <button id="tre" onclick="updateDisplay('3')">3</button>
+            <button id="plus" onclick="updateDisplay('+')">+</button>
+            <button id="noll" onclick="updateDisplay('0')">0</button>
+            <button id="punkt" onclick="updateDisplay('.')">.</button>
+            <button id="sammanlagt" onclick="calculate('')">=</button>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

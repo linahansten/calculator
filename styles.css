@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 375px;
+    height: 667px;
+    background-color: #282828;
+}
+
+#top,
+p {
+    width: 375px;
+    height: 30%;
+    color: #fff;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    font-size: 70px;
+}
+
+p {
+    margin: 0 40px 10px 0;
+
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: none;
+    margin: 2px;
+    font-size: 45px;
+}
+
+#noll {
+    width: 160px;
+    height: 85px;
+
+}
+
+#delat,
+#gånger,
+#minus,
+#plus,
+#sammanlagt {
+    background-color: #ffaf13;
+    color: #fff;
+}
+
+#ac,
+#plusminus,
+#procent {
+    background-color: #d9d9d9;
+    color: #282828;
+    font-size: 40px;
+}
+
+#ett,
+#två,
+#tre,
+#fyra,
+#fem,
+#sex,
+#sju,
+#åtta,
+#nio,
+#noll,
+#punkt {
+    background-color: #414141;
+    color: #fff;
+}
